@@ -1,0 +1,432 @@
+[
+  {
+    "type": "Travel",
+    "category": "Adventure Travel",
+    "icon": "🏞️"
+  },
+  {
+    "type": "Travel",
+    "category": "Beach Vacations",
+    "icon": "🏖️"
+  },
+  {
+    "type": "Travel",
+    "category": "Cultural Trips",
+    "icon": "🎭"
+  },
+  {
+    "type": "Travel",
+    "category": "Cruises",
+    "icon": "🚢"
+  },
+  {
+    "type": "Travel",
+    "category": "Solo Travel",
+    "icon": "👤"
+  },
+  {
+    "type": "Travel",
+    "category": "Family Vacations",
+    "icon": "👨‍👩‍👧‍👦"
+  },
+  {
+    "type": "Travel",
+    "category": "Romantic Getaways",
+    "icon": "❤️"
+  },
+  {
+    "type": "Travel",
+    "category": "Road Trips",
+    "icon": "🚗"
+  },
+  {
+    "type": "Travel",
+    "category": "Eco-Tourism",
+    "icon": "🌍"
+  },
+  {
+    "type": "Travel",
+    "category": "Luxury Travel",
+    "icon": "💎"
+  },
+  {
+    "type": "Travel",
+    "category": "Ski Trips",
+    "icon": "🎿"
+  },
+  {
+    "type": "Travel",
+    "category": "Mountain Escapes",
+    "icon": "🏔️"
+  },
+  {
+    "type": "Travel",
+    "category": "Backpacking",
+    "icon": "🎒"
+  },
+  {
+    "type": "Travel",
+    "category": "City Breaks",
+    "icon": "🏙️"
+  },
+  {
+    "type": "Travel",
+    "category": "Wildlife Safari",
+    "icon": "🦁"
+  },
+  {
+    "type": "Travel",
+    "category": "Island Hopping",
+    "icon": "🏝️"
+  },
+  {
+    "type": "Travel",
+    "category": "Adventure Sports",
+    "icon": "🧗‍♂️"
+  },
+  {
+    "type": "Travel",
+    "category": "Hiking",
+    "icon": "🥾"
+  },
+  {
+    "type": "Travel",
+    "category": "Camping",
+    "icon": "🏕️"
+  },
+  {
+    "type": "Travel",
+    "category": "Glamping",
+    "icon": "🏕️"
+  },
+  {
+    "type": "Travel",
+    "category": "Culinary Tourism",
+    "icon": "🍴"
+  },
+  {
+    "type": "Travel",
+    "category": "Historical Tours",
+    "icon": "🏺"
+  },
+  {
+    "type": "Travel",
+    "category": "Volunteer Travel",
+    "icon": "🤝"
+  },
+  {
+    "type": "Travel",
+    "category": "Pilgrimages",
+    "icon": "⛪"
+  },
+  {
+    "type": "Travel",
+    "category": "Safari Holidays",
+    "icon": "🐘"
+  },
+  {
+    "type": "Travel",
+    "category": "Rural Escapes",
+    "icon": "🌾"
+  },
+  {
+    "type": "Travel",
+    "category": "Urban Exploration",
+    "icon": "🏙️"
+  },
+  {
+    "type": "Travel",
+    "category": "Sailing",
+    "icon": "⛵"
+  },
+  {
+    "type": "Travel",
+    "category": "Trekking",
+    "icon": "🥾"
+  },
+  {
+    "type": "Travel",
+    "category": "Festivals",
+    "icon": "🎉"
+  },
+  {
+    "type": "Travel",
+    "category": "Music Tours",
+    "icon": "🎵"
+  },
+  {
+    "type": "Travel",
+    "category": "Religious Tours",
+    "icon": "⛪"
+  },
+  {
+    "type": "Travel",
+    "category": "Wine Tours",
+    "icon": "🍷"
+  },
+  {
+    "type": "Travel",
+    "category": "Adventure Parks",
+    "icon": "🎢"
+  },
+  {
+    "type": "Travel",
+    "category": "Luxury Resorts",
+    "icon": "🏨"
+  },
+  {
+    "type": "Travel",
+    "category": "Cultural Festivals",
+    "icon": "🎭"
+  },
+  {
+    "type": "Travel",
+    "category": "Winter Holidays",
+    "icon": "❄️"
+  },
+  {
+    "type": "Travel",
+    "category": "Desert Adventures",
+    "icon": "🏜️"
+  },
+  {
+    "type": "Travel",
+    "category": "Historical Sites",
+    "icon": "🏛️"
+  },
+  {
+    "type": "Travel",
+    "category": "Train Journeys",
+    "icon": "🚂"
+  },
+  {
+    "type": "Travel",
+    "category": "Eco-Friendly Stays",
+    "icon": "🏠"
+  },
+  {
+    "type": "Travel",
+    "category": "Pet-Friendly Travel",
+    "icon": "🐾"
+  },
+  {
+    "type": "Travel",
+    "category": "Photography Tours",
+    "icon": "📸"
+  },
+  {
+    "type": "Travel",
+    "category": "Surfing",
+    "icon": "🏄‍♂️"
+  },
+  {
+    "type": "Travel",
+    "category": "Scuba Diving",
+    "icon": "🤿"
+  },
+  {
+    "type": "Travel",
+    "category": "Snorkeling",
+    "icon": "🌊"
+  },
+  {
+    "type": "Travel",
+    "category": "Cycling Tours",
+    "icon": "🚴"
+  },
+  {
+    "type": "Travel",
+    "category": "Winter Sports",
+    "icon": "⛷️"
+  },
+  {
+    "type": "Travel",
+    "category": "Hot Air Ballooning",
+    "icon": "🎈"
+  },
+  {
+    "type": "Travel",
+    "category": "Paragliding",
+    "icon": "🪂"
+  },
+  {
+    "type": "Travel",
+    "category": "Skydiving",
+    "icon": "🪂"
+  },
+  {
+    "type": "Travel",
+    "category": "Fishing Trips",
+    "icon": "🎣"
+  },
+  {
+    "type": "Travel",
+    "category": "Horseback Riding",
+    "icon": "🐎"
+  },
+  {
+    "type": "Travel",
+    "category": "Volcano Tours",
+    "icon": "🌋"
+  },
+  {
+    "type": "Travel",
+    "category": "Lighthouse Tours",
+    "icon": "🗼"
+  },
+  {
+    "type": "Travel",
+    "category": "Farming Tours",
+    "icon": "🚜"
+  },
+  {
+    "type": "Travel",
+    "category": "Wilderness Survival",
+    "icon": "🪓"
+  },
+  {
+    "type": "Travel",
+    "category": "Spiritual Retreats",
+    "icon": "🕊️"
+  },
+  {
+    "type": "Travel",
+    "category": "Luxury Cruises",
+    "icon": "🚢"
+  },
+  {
+    "type": "Travel",
+    "category": "Gastronomy Tours",
+    "icon": "🍽️"
+  },
+  {
+    "type": "Travel",
+    "category": "Art Tours",
+    "icon": "🖼️"
+  },
+  {
+    "type": "Travel",
+    "category": "Photo Safaris",
+    "icon": "📸"
+  },
+  {
+    "type": "Travel",
+    "category": "Glacier Tours",
+    "icon": "❄️"
+  },
+  {
+    "type": "Travel",
+    "category": "Yoga Retreats",
+    "icon": "🧘‍♂️"
+  },
+  {
+    "type": "Travel",
+    "category": "Climbing Expeditions",
+    "icon": "🧗"
+  },
+  {
+    "type": "Travel",
+    "category": "Mountain Biking",
+    "icon": "🚵‍♂️"
+  },
+  {
+    "type": "Travel",
+    "category": "Bungee Jumping",
+    "icon": "🪂"
+  },
+  {
+    "type": "Travel",
+    "category": "Sandboarding",
+    "icon": "🏂"
+  },
+  {
+    "type": "Travel",
+    "category": "Lake Tours",
+    "icon": "🚣"
+  },
+  {
+    "type": "Travel",
+    "category": "Underwater Hotels",
+    "icon": "🏝️"
+  },
+  {
+    "type": "Travel",
+    "category": "Parks and Gardens",
+    "icon": "🌳"
+  },
+  {
+    "type": "Travel",
+    "category": "Travel Blogging",
+    "icon": "✍️"
+  },
+  {
+    "type": "Travel",
+    "category": "Bike Tours",
+    "icon": "🚴‍♂️"
+  },
+  {
+    "type": "Travel",
+    "category": "Volunteer Vacations",
+    "icon": "🤝"
+  },
+  {
+    "type": "Travel",
+    "category": "Geocaching",
+    "icon": "🗺️"
+  },
+  {
+    "type": "Travel",
+    "category": "Local Experiences",
+    "icon": "🏙️"
+  },
+  {
+    "type": "Travel",
+    "category": "Wilderness Expeditions",
+    "icon": "🧭"
+  },
+  {
+    "type": "Travel",
+    "category": "Cave Tours",
+    "icon": "⛏️"
+  },
+  {
+    "type": "Travel",
+    "category": "Motorcycle Tours",
+    "icon": "🏍️"
+  },
+  {
+    "type": "Travel",
+    "category": "Public Transport Adventures",
+    "icon": "🚉"
+  },
+  {
+    "type": "Travel",
+    "category": "Hot Springs",
+    "icon": "♨️"
+  },
+  {
+    "type": "Travel",
+    "category": "National Parks",
+    "icon": "🌲"
+  },
+  {
+    "type": "Travel",
+    "category": "Historic Hotels",
+    "icon": "🏨"
+  },
+  {
+    "type": "Travel",
+    "category": "Fishing Resorts",
+    "icon": "🏝️"
+  },
+  {
+    "type": "Travel",
+    "category": "Pet-Friendly Resorts",
+    "icon": "🐕"
+  },
+  {
+    "type": "Travel",
+    "category": "Urban Getaways",
+    "icon": "🏙️"
+  }
+]

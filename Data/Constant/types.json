@@ -1,0 +1,126 @@
+[
+    {
+        "type": "Fashion",
+        "icon": "👗"
+    },
+    {
+        "type": "Travel",
+        "icon": "✈️"
+    },
+    {
+        "type": "Food",
+        "icon": "🍔"
+    },
+    {
+        "type": "Fitness",
+        "icon": "🏋️‍♂️"
+    },
+    {
+        "type": "Technology",
+        "icon": "💻"
+    },
+    {
+        "type": "Art",
+        "icon": "🎨"
+    },
+    {
+        "type": "Music",
+        "icon": "🎵"
+    },
+    {
+        "type": "Photography",
+        "icon": "📸"
+    },
+    {
+        "type": "Sports",
+        "icon": "⚽"
+    },
+    {
+        "type": "Beauty",
+        "icon": "💄"
+    },
+    {
+        "type": "Education",
+        "icon": "📚"
+    },
+    {
+        "type": "Gaming",
+        "icon": "🎮"
+    },
+    {
+        "type": "DIY",
+        "icon": "🛠️"
+    },
+    {
+        "type": "Pets",
+        "icon": "🐶"
+    },
+    {
+        "type": "Motivational",
+        "icon": "💡"
+    },
+    {
+        "type": "Memes",
+        "icon": "😂"
+    },
+    {
+        "type": "Nature",
+        "icon": "🌿"
+    },
+    {
+        "type": "Business",
+        "icon": "📈"
+    },
+    {
+        "type": "Books",
+        "icon": "📖"
+    },
+    {
+        "type": "Luxury",
+        "icon": "💎"
+    },
+    {
+        "type": "Wellness",
+        "icon": "🧘‍♂️"
+    },
+    {
+        "type": "Relationships",
+        "icon": "❤️"
+    },
+    {
+        "type": "Parenting",
+        "icon": "👶"
+    },
+    {
+        "type": "Hobbies",
+        "icon": "🎲"
+    },
+    {
+        "type": "Humor",
+        "icon": "🤣"
+    },
+    {
+        "type": "Science",
+        "icon": "🔬"
+    },
+    {
+        "type": "History",
+        "icon": "🏺"
+    },
+    {
+        "type": "Finance",
+        "icon": "💰"
+    },
+    {
+        "type": "Automotive",
+        "icon": "🚗"
+    },
+    {
+        "type": "Adventure",
+        "icon": "🗺️"
+    },
+    {
+        "type": "Culture",
+        "icon": "🎭"
+    }
+]

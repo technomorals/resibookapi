@@ -1,0 +1,33 @@
+{
+  "app_id": 2,
+  "app_name": "Instant Save: Post Reels",
+  "app_package_name": "com.instantsave.postreelsdownload",
+  "current_advertise_type": 0,
+  "package_name": "com.instantsave.postreelsdownload",
+  "redirect_url": "https://play.google.com/store/apps/details?id=com.instantsave.postreelsdownload",
+  "google_android_appID": "ca-app-pub-2867037774906335~4884711463",
+  "facebook_keys": {
+    "android": {
+      "interstitial": "982622026813790_983215690087757",
+      "banner": "982622026813790_983215793421080",
+      "native": "982622026813790_982623960146930"
+    },
+    "iOS": {
+      "interstitial": "714897359396761_714907116062452",
+      "banner": "714897359396761_714906836062480",
+      "native": "302414584566791_302415317900051"
+    }
+  },
+  "google_keys": {
+    "android": {
+      "interstitial": "ca-app-pub-3940256099942544/1033173712",
+      "banner": "ca-app-pub-3940256099942544/6300978111",
+      "native": "ca-app-pub-3940256099942544/2247696110"
+    },
+    "iOS": {
+      "interstitial": "ca-app-pub-2867037774906335/9276378463",
+      "banner": "ca-app-pub-2867037774906335/2918374745",
+      "native": "ca-app-pub-2867037774906335/6740826418"
+    }
+  }
+}

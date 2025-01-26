@@ -1,0 +1,442 @@
+[
+    {
+        "type": "Fashion",
+        "category": "Streetwear",
+        "icon": "👕"
+    },
+    {
+        "type": "Fashion",
+        "category": "Haute Couture",
+        "icon": "👗"
+    },
+    {
+        "type": "Fashion",
+        "category": "Casual Wear",
+        "icon": "🩳"
+    },
+    {
+        "type": "Fashion",
+        "category": "Formal Wear",
+        "icon": "🤵"
+    },
+    {
+        "type": "Fashion",
+        "category": "Sportswear",
+        "icon": "🏋️"
+    },
+    {
+        "type": "Fashion",
+        "category": "Footwear",
+        "icon": "👟"
+    },
+    {
+        "type": "Fashion",
+        "category": "Accessories",
+        "icon": "👜"
+    },
+    {
+        "type": "Fashion",
+        "category": "Jewelry",
+        "icon": "💍"
+    },
+    {
+        "type": "Fashion",
+        "category": "Sustainable Fashion",
+        "icon": "🌱"
+    },
+    {
+        "type": "Fashion",
+        "category": "Vintage",
+        "icon": "👒"
+    },
+    {
+        "type": "Fashion",
+        "category": "Luxury",
+        "icon": "💎"
+    },
+    {
+        "type": "Fashion",
+        "category": "Street Style",
+        "icon": "👖"
+    },
+    {
+        "type": "Fashion",
+        "category": "Swimwear",
+        "icon": "🩱"
+    },
+    {
+        "type": "Fashion",
+        "category": "Lingerie",
+        "icon": "👙"
+    },
+    {
+        "type": "Fashion",
+        "category": "Business Casual",
+        "icon": "👔"
+    },
+    {
+        "type": "Fashion",
+        "category": "Wedding Wear",
+        "icon": "👰"
+    },
+    {
+        "type": "Fashion",
+        "category": "Traditional",
+        "icon": "🩴"
+    },
+    {
+        "type": "Fashion",
+        "category": "Ethnic Wear",
+        "icon": "🕌"
+    },
+    {
+        "type": "Fashion",
+        "category": "Winter Fashion",
+        "icon": "🧥"
+    },
+    {
+        "type": "Fashion",
+        "category": "Summer Wear",
+        "icon": "☀️"
+    },
+    {
+        "type": "Fashion",
+        "category": "Boho Style",
+        "icon": "🌻"
+    },
+    {
+        "type": "Fashion",
+        "category": "Minimalist Fashion",
+        "icon": "🎨"
+    },
+    {
+        "type": "Fashion",
+        "category": "Denim",
+        "icon": "👖"
+    },
+    {
+        "type": "Fashion",
+        "category": "Activewear",
+        "icon": "🏃"
+    },
+    {
+        "type": "Fashion",
+        "category": "Outerwear",
+        "icon": "🧥"
+    },
+    {
+        "type": "Fashion",
+        "category": "Festival Wear",
+        "icon": "🎉"
+    },
+    {
+        "type": "Fashion",
+        "category": "Evening Wear",
+        "icon": "🌙"
+    },
+    {
+        "type": "Fashion",
+        "category": "Maternity Wear",
+        "icon": "🤰"
+    },
+    {
+        "type": "Fashion",
+        "category": "Plus-Size Fashion",
+        "icon": "🧍"
+    },
+    {
+        "type": "Fashion",
+        "category": "Kidswear",
+        "icon": "👶"
+    },
+    {
+        "type": "Fashion",
+        "category": "Unisex Fashion",
+        "icon": "⚧️"
+    },
+    {
+        "type": "Fashion",
+        "category": "Leather Wear",
+        "icon": "🥾"
+    },
+    {
+        "type": "Fashion",
+        "category": "Party Wear",
+        "icon": "🎊"
+    },
+    {
+        "type": "Fashion",
+        "category": "Gothic Fashion",
+        "icon": "🕸️"
+    },
+    {
+        "type": "Fashion",
+        "category": "Military Style",
+        "icon": "🪖"
+    },
+    {
+        "type": "Fashion",
+        "category": "Skate Fashion",
+        "icon": "🛹"
+    },
+    {
+        "type": "Fashion",
+        "category": "Anime Style",
+        "icon": "🎌"
+    },
+    {
+        "type": "Fashion",
+        "category": "Preppy Style",
+        "icon": "📚"
+    },
+    {
+        "type": "Fashion",
+        "category": "Mod Fashion",
+        "icon": "🎩"
+    },
+    {
+        "type": "Fashion",
+        "category": "Grunge Style",
+        "icon": "⛓️"
+    },
+    {
+        "type": "Fashion",
+        "category": "Punk Fashion",
+        "icon": "🎸"
+    },
+    {
+        "type": "Fashion",
+        "category": "Y2K Fashion",
+        "icon": "💿"
+    },
+    {
+        "type": "Fashion",
+        "category": "Cottagecore",
+        "icon": "🍄"
+    },
+    {
+        "type": "Fashion",
+        "category": "Fairycore",
+        "icon": "🧚"
+    },
+    {
+        "type": "Fashion",
+        "category": "Monochrome Fashion",
+        "icon": "⚪"
+    },
+    {
+        "type": "Fashion",
+        "category": "Colorblock Fashion",
+        "icon": "🟥"
+    },
+    {
+        "type": "Fashion",
+        "category": "Avant-Garde",
+        "icon": "🎭"
+    },
+    {
+        "type": "Fashion",
+        "category": "Hippie Style",
+        "icon": "✌️"
+    },
+    {
+        "type": "Fashion",
+        "category": "Resort Wear",
+        "icon": "🏖️"
+    },
+    {
+        "type": "Fashion",
+        "category": "Beachwear",
+        "icon": "🏝️"
+    },
+    {
+        "type": "Fashion",
+        "category": "Sneakers",
+        "icon": "👟"
+    },
+    {
+        "type": "Fashion",
+        "category": "Boots",
+        "icon": "🥾"
+    },
+    {
+        "type": "Fashion",
+        "category": "Sandals",
+        "icon": "🩴"
+    },
+    {
+        "type": "Fashion",
+        "category": "Heels",
+        "icon": "👠"
+    },
+    {
+        "type": "Fashion",
+        "category": "Scarves",
+        "icon": "🧣"
+    },
+    {
+        "type": "Fashion",
+        "category": "Hats",
+        "icon": "🎩"
+    },
+    {
+        "type": "Fashion",
+        "category": "Sunglasses",
+        "icon": "🕶️"
+    },
+    {
+        "type": "Fashion",
+        "category": "Gloves",
+        "icon": "🧤"
+    },
+    {
+        "type": "Fashion",
+        "category": "Belts",
+        "icon": "🦺"
+    },
+    {
+        "type": "Fashion",
+        "category": "T-Shirts",
+        "icon": "👕"
+    },
+    {
+        "type": "Fashion",
+        "category": "Dresses",
+        "icon": "👗"
+    },
+    {
+        "type": "Fashion",
+        "category": "Jackets",
+        "icon": "🧥"
+    },
+    {
+        "type": "Fashion",
+        "category": "Skirts",
+        "icon": "🩳"
+    },
+    {
+        "type": "Fashion",
+        "category": "Jeans",
+        "icon": "👖"
+    },
+    {
+        "type": "Fashion",
+        "category": "Shirts",
+        "icon": "👔"
+    },
+    {
+        "type": "Fashion",
+        "category": "Cardigans",
+        "icon": "🧵"
+    },
+    {
+        "type": "Fashion",
+        "category": "Hoodies",
+        "icon": "🧥"
+    },
+    {
+        "type": "Fashion",
+        "category": "Suits",
+        "icon": "🤵"
+    },
+    {
+        "type": "Fashion",
+        "category": "Romper",
+        "icon": "👚"
+    },
+    {
+        "type": "Fashion",
+        "category": "Knitwear",
+        "icon": "🧶"
+    },
+    {
+        "type": "Fashion",
+        "category": "Blazers",
+        "icon": "🎩"
+    },
+    {
+        "type": "Fashion",
+        "category": "Leggings",
+        "icon": "👖"
+    },
+    {
+        "type": "Fashion",
+        "category": "Corsets",
+        "icon": "🖤"
+    },
+    {
+        "type": "Fashion",
+        "category": "Denim Jackets",
+        "icon": "👖"
+    },
+    {
+        "type": "Fashion",
+        "category": "Bomber Jackets",
+        "icon": "🧥"
+    },
+    {
+        "type": "Fashion",
+        "category": "Puffer Coats",
+        "icon": "🥶"
+    },
+    {
+        "type": "Fashion",
+        "category": "Raincoats",
+        "icon": "🌧️"
+    },
+    {
+        "type": "Fashion",
+        "category": "Trench Coats",
+        "icon": "🕵️‍♂️"
+    },
+    {
+        "type": "Fashion",
+        "category": "Graphic Tees",
+        "icon": "🎨"
+    },
+    {
+        "type": "Fashion",
+        "category": "Crop Tops",
+        "icon": "👚"
+    },
+    {
+        "type": "Fashion",
+        "category": "Tank Tops",
+        "icon": "🩳"
+    },
+    {
+        "type": "Fashion",
+        "category": "Polos",
+        "icon": "👕"
+    },
+    {
+        "type": "Fashion",
+        "category": "Varsity Jackets",
+        "icon": "🎓"
+    },
+    {
+        "type": "Fashion",
+        "category": "Leather Jackets",
+        "icon": "🥾"
+    },
+    {
+        "type": "Fashion",
+        "category": "Bags",
+        "icon": "👜"
+    },
+    {
+        "type": "Fashion",
+        "category": "Clutches",
+        "icon": "👜"
+    },
+    {
+        "type": "Fashion",
+        "category": "Backpacks",
+        "icon": "🎒"
+    },
+    {
+        "type": "Fashion",
+        "category": "Tote Bags",
+        "icon": "🛍️"
+    }
+]
