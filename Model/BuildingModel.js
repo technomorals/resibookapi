@@ -1,3 +1,6 @@
+var mongoose = require("mongoose");
+var Schema = mongoose.Schema;
+
 var buildingSchema = new Schema(
     {
       site_id: { type: Schema.Types.ObjectId, ref: "Site", required: true }, // Reference to the Site

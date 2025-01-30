@@ -1,13 +1,24 @@
-const SiteModel = require("..//..//Model/SiteModel");
-const UserModel = require("..//..//Model/UserModel");
-const UserRoleManagementModel = require("..//..//Model/UserRoleManagementModel");
-const PropertyModel = require("..//..//Model/PropertyModel");
+const SiteModel = require("./..//Model/SiteModel");
+const UserModel = require("./..//Model/UserModel");
+const UserRoleManagementModel = require("./..//Model/UserRoleManagementModel");
+const PropertyModel = require("./..//Model/PropertyModel");
 var mongoose = require("mongoose");
-
-class UserManager {
+class SiteManager {
   constructor() {}
 
-  getUserDetails(user_id) {
+  getSites(siteIds) {
+    return new Promise(async (resolve, reject) => {
+      try {
+        var query = { _id: { $in: siteIds } };
+        let result = await SiteModel.find(query);
+        return resolve(result);
+      } catch (error) {
+        return resolve([]);
+      }
+    });
+  }
+
+  getSiteListByUserID(user_id) {
     return new Promise(async (resolve, reject) => {
       try {
         let userData = await UserModel.findById(user_id);
@@ -16,33 +27,16 @@ class UserManager {
           return resolve({
             status: false,
             message: "This User has been deleted.",
-            data: userData,
           });
-        } else if (userData["is_active"] == false) {
+        }
+
+        if (userData["is_active"] == false) {
           return resolve({
             status: false,
             message: "This User Status is Not Active.",
-            data: userData,
-          });
-        } else {
-          return resolve({
-            status: true,
-            message: "Success",
-            data: userData,
           });
         }
-      } catch (error) {
-        return resolve({
-          status: false,
-          message: error.message,
-        });
-      }
-    });
-  }
 
-  getUserDetailsWithRoleWise(user_id) {
-    return new Promise(async (resolve, reject) => {
-      try {
         var userRoleModel = await UserRoleManagementModel.findOne({
           user_id: user_id,
         }).populate({
@@ -55,35 +49,21 @@ class UserManager {
             status: false,
             message: "Role Is Not Assign",
           });
-        } else {
-          return resolve({
-            status: true,
-            message: "Success",
-            data: userRoleModel,
-          });
-        }
-      } catch (error) {
-        return resolve({
-          status: false,
-          message: error.message,
-        });
-      }
-    });
-  }
-
-  getSiteListByUserID(user_id) {
-    return new Promise(async (resolve, reject) => {
-      try {
-        let userData = await this.getUserDetails(user_id);
-        if (userData["status"] == false) {
-          return resolve(userData);
         }
 
-        let userDetailsWithRoleWise = await this.getUserDetailsWithRoleWise(
-          user_id
-        );
-        if (userDetailsWithRoleWise["status"] == false) {
-          return resolve(userDetailsWithRoleWise);
+        if (
+          userRoleModel &&
+          userRoleModel["user_role"] &&
+          userRoleModel["user_role"].length > 0
+        ) {
+          userRoleModel["user_role"] = userRoleModel["user_role"].sort(
+            (role1, role2) => {
+              return (
+                role1[0]["role_details"]["priority"] -
+                role2[0]["role_details"]["priority"]
+              );
+            }
+          );
         }
 
         var match = {
@@ -114,4 +94,5 @@ class UserManager {
     });
   }
 }
-module.exports = new UserManager();
+
+module.exports = new SiteManager();

@@ -1,33 +1,47 @@
+const { RateLimiterMemory } = require("rate-limiter-flexible");
+
 var express = require("express");
 var dotenv = require("dotenv");
 var path = require("path");
 var cors = require("cors");
 var APIRouter = require("./Router/APIRouter");
 const mongoose = require("mongoose");
-const NotificationManager = require("./Global/NotificationManager/NotificationManager.js");
-const FirebaseAdmin = require("./Global/FirebaseAdmin/FirebaseAdmin.js");
-
 const SocketManager = require("./Global/SocketManager");
 
 const clients = {};
 
 const http = require("http");
+const SiteManager = require("./Global/SiteManager");
+const UserManager = require("./Global/UserManager/UserManager");
 var app = express();
 let server = http.createServer(app);
 
-var io = require("socket.io")(server);
+// var io = require("socket.io")(server);
 const socketManager = new SocketManager();
 socketManager.init(server);
 
 dotenv.config();
 
 var databaseURL =
-  "mongodb+srv://resibook:Vanani9442@resibook.fdz5f.mongodb.net/resibook?retryWrites=true&w=majority";
+  "mongodb+srv://chat:sm123@cluster0.vzuz4rj.mongodb.net/resibook";
 
 mongoose
   .connect(databaseURL)
   .then(async () => {
     console.log("Connected");
+    
+    let _json = {
+      user_id: '679b0bb2a876abc21d8975f4',
+      user_role : [{
+        site_id : '679b0e85bf6fd32d084e46c0',
+        user_role_id : '679b08da9c449af1e8d60df6'
+      }]
+    }
+    let _model = require('./Model/UserRoleManagementModel')
+    let _result = await _model(_json).save();
+    // console.log(_result);
+    UserManager.getSiteListByUserID('679b0bb2a876abc21d8975f4');
+
     // NotificationManager.sendNotificaitonEverySecond();
   })
   .catch((err) => {
@@ -41,6 +55,22 @@ app.use(express.json({ limit: "50mb" }));
 app.use(express.urlencoded({ limit: "50mb" }));
 app.use(express.static(path.join(__dirname, "public/uploads/")));
 
+// const rateLimiter = new RateLimiterMemory({
+//   points: 5, // 5 requests
+//   duration: 1, // per second
+// });
+
+// app.use(async (req, res, next) => {
+//   try {
+//     await rateLimiter.consume(req.ip); // Consume 1 point per request
+//     next();
+//   } catch (rejRes) {
+//     res.status(429).send("Too many requests, please try again later.");
+//   }
+// });
+
+let pincode = `https://api.postalpincode.in/pincode/395004`;
+
 app.use("/welcome", (req, res) => {
   res.send({ message: "Welcome" });
 });
@@ -48,32 +78,10 @@ app.use("/api/welcome", (req, res) => {
   res.send({ message: "Welcome" });
 });
 
-app.post("/api/maintenance", (req, res) => {
-  res.send({
-    application_id: "1565383004",
-    application_name: "INSTA EXPERT",
-    application_description:
-      "You can download profile picture, posts, reels with in one click, also you can access notification feature from Insta Experts.",
-    apple_id: "1565383004",
-    email_id: "manthanvanani9442@gmail.com",
-    whatsappnumbers: "918156067411",
-    website: "https://instaexpert.carrd.co/",
-    appstore_url:
-      "https://apps.apple.com/app/insta-save-repost-post-reels/id1565383004",
-    is_maintenance: false,
-    is_ads: true,
-    application_version: "6.4",
-    repost_url:
-      "https://applicationsjson.s3.amazonaws.com/Insta+Expert/repost.mp4",
-    is_review: true,
-    isPostDownload: true,
-    isProfileDownload: true,
-  });
-});
-
 app.use("/api", APIRouter);
 
 app.listen(9442, () => {
   console.log(`server started running on ${9442}.`);
 });
+
 module.exports = app;

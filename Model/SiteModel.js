@@ -18,6 +18,12 @@ var site = new Schema(
     images: [{ type: String, required: false }], // Array of image URLs for the site
     site_type: { type: String, required: true }, // Type of site (e.g., residential, commercial, etc.)
     created_by: { type: Schema.Types.ObjectId, ref: "users", required: true }, // User who created the site entry
+    developer_ids: [
+      {
+        type: Schema.Types.ObjectId,
+        ref: "SiteDeveloper",
+      },
+    ],
     amenities: [
       {
         type: Schema.Types.ObjectId,

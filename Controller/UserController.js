@@ -125,67 +125,61 @@ exports.set = [
       if (email_id) {
       }
 
-      // let _current_data = await FirebaseAdmin.getUserByPhoneNumber(mobile_no);
-      // if (_current_data) {
-      //   register_type_uid = _current_data["uid"];
-      // }
-
-      if (!register_type_uid) {
+      if (register_type_uid) {
         let _new_user_data = await FirebaseAdmin.createUser(req.body);
         register_type_uid = _new_user_data["uid"];
       }
+      // if (!register_type_uid) {
+      //   return res.json({
+      //     status: false,
+      //     message: MessageList.param_missing,
+      //   });
+      // } else {
+      var _unique_query = { register_type_uid: register_type_uid };
+      var _update_data = {
+        is_active: is_active,
+        is_delete: is_delete,
+        name: name,
+        mobile_no: mobile_no,
+        email_id: email_id,
+        username: username,
+        password: password,
+        profile: profile,
+        birth_date: birth_date,
+        gender: gender,
+        location: location,
+        pincode: pincode,
+        country: country,
+        state: state,
+        city: city,
+        register_type: register_type,
+        register_type_uid: register_type_uid,
+      };
 
-      if (!register_type_uid) {
-        return res.json({
-          status: false,
-          message: MessageList.param_missing,
-        });
-      } else {
-        var _unique_query = { register_type_uid: register_type_uid };
-        var _update_data = {
-          is_active: is_active,
-          is_delete: is_delete,
-          name: name,
-          mobile_no: mobile_no,
-          email_id: email_id,
-          username: username,
-          password: password,
-          profile: profile,
-          birth_date: birth_date,
-          gender: gender,
-          location: location,
-          pincode: pincode,
-          country: country,
-          state: state,
-          city: city,
-          register_type: register_type,
-          register_type_uid: register_type_uid,
-        };
-
-        for (var propName in _update_data) {
-          if (
-            _update_data[propName] === null ||
-            _update_data[propName] === undefined
-          ) {
-            delete _update_data[propName];
-          }
+      for (var propName in _update_data) {
+        if (
+          _update_data[propName] === null ||
+          _update_data[propName] === undefined
+        ) {
+          delete _update_data[propName];
         }
-
-        let _statue = await UserModel.findOneAndUpdate(
-          _unique_query,
-          _update_data,
-          { upsert: true }
-        ).exec();
-
-        let _updated_record = await UserModel.findOne(_unique_query);
-
-        return res.json({
-          status: true,
-          message: MessageList.success,
-          data: _updated_record,
-          error: null,
-        });
       }
+
+      let _statue = await UserModel.findOneAndUpdate(
+        _unique_query,
+        _update_data,
+        { upsert: true }
+      ).exec();
+
+      let _updated_record = await UserModel.findOne(_unique_query);
+
+      return res.json({
+        status: true,
+        message: MessageList.success,
+        data: _updated_record,
+        error: null,
+      });
+      // }
     } catch (error) {
       return res.json({
         status: false,
@@ -196,7 +190,6 @@ exports.set = [
     }
   },
 ];
-
 
 exports.update = [
   async (req, res) => {
@@ -390,9 +383,9 @@ exports.uploadUserProfile = [
           }
 
           var _data = await UserModel.findOneAndUpdate(
-            { 'register_type_uid': registerTypeUID },
+            { register_type_uid: registerTypeUID },
             {
-              'profile': _uploadData['data']['Location']
+              profile: _uploadData["data"]["Location"],
             }
           ).exec();
           return res.json(_uploadData);

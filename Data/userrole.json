@@ -1,0 +1,132 @@
+[
+    {
+      "_id": "679b08da9c449af1e8d60df8",
+      "name": "admin",
+      "priority": 2,
+      "code": 1000,
+      "createdAt": "2025-01-30T05:06:34.757Z",
+      "updatedAt": "2025-01-30T05:06:34.757Z",
+      "__v": 0
+    },
+    {
+      "_id": "679b08da9c449af1e8d60e0e",
+      "name": "vendor_staff",
+      "priority": 13,
+      "createdAt": "2025-01-30T05:06:34.763Z",
+      "updatedAt": "2025-01-30T05:06:34.763Z",
+      "__v": 0
+    },
+    {
+      "_id": "679b08da9c449af1e8d60e10",
+      "name": "security_agency",
+      "priority": 14,
+      "createdAt": "2025-01-30T05:06:34.764Z",
+      "updatedAt": "2025-01-30T05:06:34.764Z",
+      "__v": 0
+    },
+    {
+      "_id": "679b08da9c449af1e8d60e06",
+      "name": "property_broker",
+      "priority": 9,
+      "createdAt": "2025-01-30T05:06:34.761Z",
+      "updatedAt": "2025-01-30T05:06:34.761Z",
+      "__v": 0
+    },
+    {
+      "_id": "679b08da9c449af1e8d60dfe",
+      "name": "site_sales",
+      "priority": 5,
+      "createdAt": "2025-01-30T05:06:34.759Z",
+      "updatedAt": "2025-01-30T05:06:34.759Z",
+      "__v": 0
+    },
+    {
+      "_id": "679b08da9c449af1e8d60dfa",
+      "name": "site_admin",
+      "priority": 3,
+      "createdAt": "2025-01-30T05:06:34.758Z",
+      "updatedAt": "2025-01-30T05:06:34.758Z",
+      "__v": 0
+    },
+    {
+      "_id": "679b08da9c449af1e8d60e00",
+      "name": "site_staff",
+      "priority": 6,
+      "createdAt": "2025-01-30T05:06:34.759Z",
+      "updatedAt": "2025-01-30T05:06:34.759Z",
+      "__v": 0
+    },
+    {
+      "_id": "679b08da9c449af1e8d60e02",
+      "name": "site_secretary",
+      "priority": 7,
+      "createdAt": "2025-01-30T05:06:34.761Z",
+      "updatedAt": "2025-01-30T05:06:34.761Z",
+      "__v": 0
+    },
+    {
+      "_id": "679b08da9c449af1e8d60e04",
+      "name": "property_owner",
+      "priority": 8,
+      "createdAt": "2025-01-30T05:06:34.761Z",
+      "updatedAt": "2025-01-30T05:06:34.761Z",
+      "__v": 0
+    },
+    {
+      "_id": "679b08da9c449af1e8d60e12",
+      "name": "security_head",
+      "priority": 15,
+      "createdAt": "2025-01-30T05:06:34.764Z",
+      "updatedAt": "2025-01-30T05:06:34.764Z",
+      "__v": 0
+    },
+    {
+      "_id": "679b08da9c449af1e8d60e08",
+      "name": "property_rent",
+      "priority": 10,
+      "createdAt": "2025-01-30T05:06:34.762Z",
+      "updatedAt": "2025-01-30T05:06:34.762Z",
+      "__v": 0
+    },
+    {
+      "_id": "679b08da9c449af1e8d60e0c",
+      "name": "vendor",
+      "priority": 12,
+      "createdAt": "2025-01-30T05:06:34.763Z",
+      "updatedAt": "2025-01-30T05:06:34.763Z",
+      "__v": 0
+    },
+    {
+      "_id": "679b08da9c449af1e8d60df6",
+      "code": 1,
+      "name": "super_admin",
+      "priority": 1,
+      "createdAt": "2025-01-30T05:06:34.756Z",
+      "updatedAt": "2025-01-30T05:06:34.756Z",
+      "__v": 0
+    },
+    {
+      "_id": "679b08da9c449af1e8d60dfc",
+      "name": "site_manager",
+      "priority": 4,
+      "createdAt": "2025-01-30T05:06:34.758Z",
+      "updatedAt": "2025-01-30T05:06:34.758Z",
+      "__v": 0
+    },
+    {
+      "_id": "679b08da9c449af1e8d60e0a",
+      "name": "property_staff",
+      "priority": 11,
+      "createdAt": "2025-01-30T05:06:34.762Z",
+      "updatedAt": "2025-01-30T05:06:34.762Z",
+      "__v": 0
+    },
+    {
+      "_id": "679b08da9c449af1e8d60e14",
+      "name": "security_staff",
+      "priority": 16,
+      "createdAt": "2025-01-30T05:06:34.764Z",
+      "updatedAt": "2025-01-30T05:06:34.764Z",
+      "__v": 0
+    }
+  ]

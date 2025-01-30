@@ -28,6 +28,7 @@
     "node-cron": "^3.0.3",
     "node-fetch": "^2.6.7",
     "nodemon": "^2.0.15",
+    "rate-limiter-flexible": "^5.0.5",
     "request": "^2.88.2",
     "socket.io": "^4.8.1",
     "uuid": "^9.0.1",
