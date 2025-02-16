@@ -4,7 +4,8 @@ const Schema = mongoose.Schema;
 const visitorBasicInfoSchema = new Schema(
   {
     // Basic visitor details
-    user_id: { type: Schema.Types.ObjectId, ref: "users", required: true },
+    site_id: { type: Schema.Types.ObjectId, ref: "Site", required: true },
+    user_id: { type: Schema.Types.ObjectId, ref: "users", required: false },
     full_name: { type: String, required: true }, // Full name of the visitor
     phone_number: { type: String, required: true }, // Visitor's contact number
     gender: { type: String, required: false }, // Optional email address

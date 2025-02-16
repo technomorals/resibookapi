@@ -3,7 +3,7 @@ var Schema = mongoose.Schema;
 
 var propertySchema = new Schema(
   {
-    user_id: { type: Schema.Types.ObjectId, ref: "users", required: true },
+    user_id: { type: Schema.Types.ObjectId, ref: "users", required: false },
     site_id: { type: Schema.Types.ObjectId, ref: "Site", required: true },
     building_id: {
       type: Schema.Types.ObjectId,
@@ -17,8 +17,8 @@ var propertySchema = new Schema(
       ref: "PropertyTypeMaster", // Ensures consistent property type usage
       required: true, // Property type is mandatory
     },
-    size: { type: Number, required: true }, // Size of the property (e.g., in square feet or meters)
-    price: { type: Number, required: true }, // Price of the property
+    size: { type: String, required: true }, // Size of the property (e.g., in square feet or meters)
+    price: { type: String, required: true }, // Price of the property
     is_available: { type: Boolean, required: true, default: true }, // Availability status
     description: { type: String, required: false }, // Optional description of the property
     facilities: [

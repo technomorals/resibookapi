@@ -9,17 +9,11 @@ router.post("/send_otp", UserController.sendOTP);
 router.post("/verify_otp", UserController.verifyOTP);
 router.post("/upload_user_profile", UserController.uploadUserProfile);
 
-// :::::::::::::::: Collections  ::::::::::::::::
-
-router.post("/get_colletion", UserController.set);
-router.post("/set_collection", UserController.set);
-
-// :::::::::::::::: Profile Type  ::::::::::::::::
-
-// :::::::::::::::: Profile Profession Type  ::::::::::::::::
-
-// :::::::::::::::: Profile Relation Type  ::::::::::::::::
-
-// :::::::::::::::: Profile Tag  ::::::::::::::::
+router.post("/get_user_details", UserController.getUserDetails);
+router.post("/get_user_details_with_rolewise", UserController.getUserDetailsWithRoleWise);
+router.post("/get_site_list_by_user_id", UserController.getSiteListByUserID);
+router.post("/get_buldings_list_by_user_id", UserController.getBuldingsListByUserID);
+router.post("/get_floor_list_by_user_id", UserController.getFloorListByUserID);
+router.post("/get_property_list_by_user_id", UserController.getPropertyListByUserID);
 
 module.exports = router;

@@ -1,8 +1,12 @@
 var aws_ = require("..//AWS/s3.js");
-var UserModel = require("..//Model/UserModel.js");
-var OTPVerificationModel = require("..//Model/otpVerificationModel.js");
+
 var MessageList = require("../Constants/MessageList.js");
 const FirebaseAdmin = require("../Global/FirebaseAdmin/FirebaseAdmin.js");
+const UserManager = require("../Global/UserManager/UserManager.js");
+
+//MODEL:
+var UserModel = require("..//Model/UserModel.js");
+var OTPVerificationModel = require("..//Model/otpVerificationModel.js");
 
 const moment = require("moment");
 const fs = require("fs");
@@ -12,6 +16,7 @@ const { v4: uuidv4 } = require("uuid");
 const multer = require("multer");
 var filename = "Files/";
 const DIR = `./public/uploads/${filename}`;
+
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
     var extention = path.extname(file.originalname);
@@ -391,6 +396,92 @@ exports.uploadUserProfile = [
           return res.json(_uploadData);
         }
       });
+    } catch (err) {
+      const _save = await ErrorManager.save(req, err);
+      return res.status(500).json(_save);
+    }
+  },
+];
+
+exports.getUserDetails = [
+  async (req, res) => {
+    try {
+      let _data = req.body ?? {};
+      let user_id = _data["user_id"];
+      if (!user_id) {
+        return res.json({
+          status: false,
+          message: "User not found",
+        });
+      }
+
+      let result = await UserManager.getUserDetails(user_id);
+      return res.json(result);
+    } catch (err) {
+      const _save = await ErrorManager.save(req, err);
+      return res.status(500).json(_save);
+    }
+  },
+];
+
+exports.getUserDetailsWithRoleWise = [
+  async (req, res) => {
+    try {
+      let _data = req.body ?? {};
+      let result = await UserManager.getUserDetailsWithRoleWise(_data);
+      return res.json(result);
+    } catch (err) {
+      const _save = await ErrorManager.save(req, err);
+      return res.status(500).json(_save);
+    }
+  },
+];
+
+exports.getSiteListByUserID = [
+  async (req, res) => {
+    try {
+      let _data = req.body ?? {};
+      let result = await UserManager.getSiteListByUserID(_data);
+      return res.json(result);
+    } catch (err) {
+      const _save = await ErrorManager.save(req, err);
+      return res.status(500).json(_save);
+    }
+  },
+];
+
+exports.getBuldingsListByUserID = [
+  async (req, res) => {
+    try {
+      let _data = req.body ?? {};
+      let result = await UserManager.getBuldingsListByUserID(_data);
+      return res.json(result);
+    } catch (err) {
+      const _save = await ErrorManager.save(req, err);
+      return res.status(500).json(_save);
+    }
+  },
+];
+
+exports.getFloorListByUserID = [
+  async (req, res) => {
+    try {
+      let _data = req.body ?? {};
+      let result = await UserManager.getFloorListByUserID(_data);
+      return res.json(result);
+    } catch (err) {
+      const _save = await ErrorManager.save(req, err);
+      return res.status(500).json(_save);
+    }
+  },
+];
+
+exports.getPropertyListByUserID = [
+  async (req, res) => {
+    try {
+      let _data = req.body ?? {};
+      let result = await UserManager.getPropertyListByUserID(_data);
+      return res.json(result);
     } catch (err) {
       const _save = await ErrorManager.save(req, err);
       return res.status(500).json(_save);

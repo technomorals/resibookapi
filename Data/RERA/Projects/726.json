@@ -1,0 +1,124 @@
+{
+    "prmtr_pan_no": "ABUFS7135H",
+    "project_address": "Near Dakshinamurti Soceity, Sun Pharma Road, Vadodara",
+    "project_cost": "224887475",
+    "project_status": "Ongoing",
+    "startDate": "05-May-2011",
+    "districtType": "Vadodara",
+    "approvedOn": "30-October-2018",
+    "endDate": "31-May-2019",
+    "hardcopysubmissionDate": "2017-07-29 00:00:00.0",
+    "payment_status": "Paid",
+    "payment_token": "PRCJVKWB13726",
+    "pmtr_email_id": "shreejiresidency@gmail.com",
+    "pr_mobile_no": "9824011129",
+    "prmtr_adhaar_no": null,
+    "prmtr_com_reg_no": "GUJVA100615",
+    "projectCost": null,
+    "projectType": "Residential/Group Housing",
+    "districtName": "Vadodara",
+    "promoterName": "SHREEJI REALTY",
+    "wfoid": "726",
+    "promoterAddress": "5, Shiv Vatika Society, Opp. Paswanath Flats, Manjalpur, Vadodara. Vadodara 390011",
+    "regFee": "79010.0",
+    "projectRegId": 726,
+    "projectName": "SHREEJI RESIDENCY",
+    "regNo": "PR/GJ/VADODARA/VADODARA/Others/RAA03892/301018",
+    "projOrgFDate": "2019-05-31 00:00:00.0",
+    "extDate": null,
+    "disposed_date": null,
+    "total_est_cost_of_proj": null,
+    "project_ack_no": "PR/VADODARA/VADODARA/VADODARA TPO/170729/000523",
+    "alldatabyprojectData": {
+        "altcertificateId": null,
+        "altsec15certificateId": null,
+        "projectAckNo": "PR/VADODARA/VADODARA/VADODARA TPO/170729/000523",
+        "promoterType": "PARTNERSHIP FIRM",
+        "projRegNo": "PR/GJ/VADODARA/VADODARA/Others/RAA03892/301018",
+        "wfoId": "726",
+        "promoterEmailId": "shreejiresidency@gmail.com",
+        "formOneId": null,
+        "formTwoId": null,
+        "altcertificateUid": null,
+        "certificateId": 309018,
+        "projectType": "Residential/Group Housing",
+        "certificateUid": "5H8FYNYWG36CRJJPS06FZKQ8JRD5P3WIESAGKO8BENCTTWCESV",
+        "extcertificateId": null,
+        "projRegId": 726,
+        "promoterId": 1095,
+        "promoterMobileNo": "9824011129",
+        "approvedDate": "30-10-2018",
+        "promoterName": "SHREEJI REALTY",
+        "appSubmissionDate": "2017-07-29T00:00:00.000+0530",
+        "altsec15certificateUid": null,
+        "extcertificateUid": null,
+        "projectName": "SHREEJI RESIDENCY",
+        "formThreeId": null
+    },
+    "projectBlockDetailsData": {},
+    "projectLocationData": {
+        "locId": 8082,
+        "projectName": "SHREEJI RESIDENCY",
+        "promotorName": "SHREEJI REALTY",
+        "projectCost": 224887475,
+        "projectType": "Residential/Group Housing",
+        "processType": "REG",
+        "promotorType": "Partnership Firm",
+        "projectStatus": "Ongoing",
+        "address": "Near Dakshinamurti Soceity,Sun Pharma Road, Vadodara",
+        "subDistrictCode": null,
+        "subDistrictName": "Vadodara",
+        "districtCode": "VADO",
+        "districtName": "Vadodara",
+        "waterLevel": null,
+        "projectId": 726,
+        "status": "SUCCESS",
+        "coordinates": [
+            {
+                "locId": 57535,
+                "lat": "22.279934648301538",
+                "lang": "73.14665151143805"
+            },
+            {
+                "locId": 57536,
+                "lat": "22.27994954007352",
+                "lang": "73.14721209312216"
+            },
+            {
+                "locId": 57537,
+                "lat": "22.279046103036688",
+                "lang": "73.14730060601966"
+            },
+            {
+                "locId": 57538,
+                "lat": "22.279041139080796",
+                "lang": "73.14702970290915"
+            },
+            {
+                "locId": 57539,
+                "lat": "22.278783013131974",
+                "lang": "73.14702702070014"
+            },
+            {
+                "locId": 57540,
+                "lat": "22.278763157270024",
+                "lang": "73.14653885865943"
+            },
+            {
+                "locId": 57541,
+                "lat": "22.279021283255492",
+                "lang": "73.14652276540534"
+            },
+            {
+                "locId": 57542,
+                "lat": "22.279060994903276",
+                "lang": "73.14668369794623"
+            },
+            {
+                "locId": 57543,
+                "lat": "22.279929684377187",
+                "lang": "73.1466595580651"
+            }
+        ]
+    }
+}

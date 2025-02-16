@@ -49,7 +49,7 @@ const visitorSchema = new Schema(
       required: false,
     }, // Reference to the building
     floor_id: { type: Schema.Types.ObjectId, ref: "Floor", required: false }, // Reference to the floor
-    site_id: { type: Schema.Types.ObjectId, ref: "Site", required: false }, // Reference to the site
+    site_id: { type: Schema.Types.ObjectId, ref: "Site", required: true }, // Reference to the site
 
     // In/Out Log information
     check_in_time: { type: Date, required: false }, // Time when the visitor checked in

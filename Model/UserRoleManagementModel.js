@@ -7,6 +7,7 @@ var userRoleSchema = new Schema({
     ref: "UserRoleMaster",
     required: true, // Reference to the UserRoleMaster collection
   },
+  permission : [{type: String, required: true}],
   site_id: {
     type: Schema.Types.ObjectId,
     ref: "Site",
