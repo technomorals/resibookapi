@@ -24,7 +24,7 @@ socketManager.init(server);
 dotenv.config();
 
 var databaseURL =
-  "mongodb+srv://chat:sm123@cluster0.vzuz4rj.mongodb.net/resibook";
+  "mongodb+srv://resibook:Vanani9442@resibook.fdz5f.mongodb.net/resibook?retryWrites=true&w=majority";
 
 mongoose
   .connect(databaseURL)
